@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICICI Bank | Credit Origination System</title>
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<!--HEADER START-->
+<header>
+	<div class="container-fluid dashboard">
+    	<div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-3 logo-container"><a href="dashboard.html"><div class="logo"><span></span></div></a></div>
+            <div class="col-xs-10 col-sm-10 col-md-9"><h2>ICICI Credit Origination System</h2></div>
+        </div>
+    </div>
+</header>
+<!--HEADER END-->
+
+<!--MAIN START-->
+<main class="login-page">
+    <div class="login-wrap">
+        <div class="login-html">
+            <h5>EXTERNAL USER</h5>
+            <div class="login-form">
+                <div class="">
+                    <div class="group">
+                        <label for="user" class="label">Mobile Number</label>
+                        <input id="user" type="text" class="input" required>
+                    </div>
+                    <!--hidden otp section-->
+                    <div class="hidden-otp" style="display:none;">
+                        <div class="group">
+                            <label for="user" class="label">OTP</label>
+                            <input id="user" type="text" class="input" required>
+                        </div>
+                        <div class="group">
+                            <input type="submit" class="button" value="Login" onclick="window.location.href='dashboard.html';">
+                            <input type="submit" class="button" value="Resend OTP">
+                        </div>
+                    </div>
+                    <!--hidden otp section-->
+                    <div class="group">
+                    	<input type="submit" class="button hide-otp" value="Send OTP">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+<!--MAIN END-->
+
+<!--FOOTER START-->
+<footer>Powered by Servosys Solutions</footer>
+<!--FOOTER END-->
+</body>
+</html>
